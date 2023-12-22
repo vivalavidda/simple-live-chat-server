@@ -1,7 +1,6 @@
-de.flapdoodle.mongodb.embedded.version: 7.0.4
-
 spring:
   data:
     mongodb:
-      database: test
-      port: 27018
+      uri: mongodb://127.0.0.1:27017/?replicaSet=rs0
+      database: database
+      replica-set-name: rs0
